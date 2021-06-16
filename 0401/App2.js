@@ -1,23 +1,26 @@
 import React from 'react';
 
-(
-    <div>
-        <Header/>
-        <Content/>
-    </div>  
-)
-
-(
-    <div>
-        <h1>Header</h1>
-    </div>
-)
-
-(
-    <div>
-        <h2>Content</h2>
-        <p>The content text!!!</p>
-    </div>
-)
-
+function App() {
+      return (
+         <div>
+            <Header/>
+            <Content/>
+         </div>
+      );  
+}
+function Header() {
+      return (
+         <div>
+            <h1>Header</h1>
+         </div>
+      );
+}
+function Content() {
+      return (
+         <div>
+            <h2>Content</h2>
+            <p>The content text!!!</p>
+         </div>
+      );
+}
 export default App;
